@@ -17,8 +17,8 @@ accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
 
     passport.use(new TeamboxStrategy({
-        clientID: SOUNDCLOUD_CLIENT_ID,
-        clientSecret: SOUNDCLOUD_CLIENT_SECRET,
+        clientID: TEAMBOX_CLIENT_ID,
+        clientSecret: TEAMBOX_CLIENT_SECRET,
         callbackURL: "http://127.0.0.1:3000/auth/teambox/callback"
       },
       function(accessToken, refreshToken, profile, done) {
