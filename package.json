@@ -1,0 +1,30 @@
+{
+  "name": "passport-teambox",
+  "version": "0.0.1",
+  "description": "Teambox authentication strategy for Passport.",
+  "author": { "name": "Patrick Heneise", "email": "patrickheneise@gmail.com", "url": "http://www.patrickheneise.com" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/teambox/passport-teambox.git"
+  },
+  "bugs": {
+    "url": "http://github.com/teambox/passport-teambox/issues"
+  },
+  "main": "./lib/passport-teambox",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "teambox", "auth", "authn", "authentication", "identity"]
+}
